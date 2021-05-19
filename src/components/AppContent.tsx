@@ -9,9 +9,9 @@ import Dropzone from './Dropzone';
 
 interface StateProps {
   file: File;
-  loading: boolean;
+  loading: boolean | undefined;
   encryption_key: string;
-  decrypting: boolean;
+  decrypting: boolean | undefined;
   decrypted_file: File;
   encrypted_lang: number;
 }

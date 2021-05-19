@@ -10,7 +10,7 @@ import styled from 'styled-components';
 
 interface StateProps {
   file: File;
-  loading: boolean;
+  loading: boolean | undefined;
   encrypted_lang: number;
 }
 
