@@ -2,10 +2,10 @@ import { actionTypes } from './fileActionTypes';
 interface IState {
   file?: File | null;
   encrypted_lang?: number;
-  loading?: boolean;
+  loading?: boolean | undefined;
   error?: string;
   decrypted_file?: File | null;
-  decrypting?: boolean;
+  decrypting?: boolean | undefined;
   decryption_error?: string;
   key?: string;
 }
