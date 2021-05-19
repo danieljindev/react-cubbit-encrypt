@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;900&display=swap');
+.App {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+body {
+  background-color: black;
+  font-family: Nunito;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.MuiAppBar-colorPrimary {
+  background-color: black;
+}
+
+.main-header {
+  background-color: black;
+}
+
+.file-drop-area {
+  padding: 9px 9px 9px 9px;
+  background-color: #ffa047;
+  height: 210px;
+}
+
+.inner-drop-area {
+  height: 190px;
+  border: 1px dotted rgba(22, 22, 22, 0.16);
+  background-color: #d9893f;
+}
+
+.dropzone {
+  height: 150px;
+  border: 1px dotted rgba(22, 22, 22, 0.16);
+  background-color: #d9893f;
+}
+
+.button-area {
+  margin-top: 20px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.light-btn .MuiButton-label {
+  padding: 10px 40px 10px 40px;
+  background-color: #009eff;
+  color: white;
+}
+.dark-btn .MuiButton-label {
+  padding: 10px 40px 10px 40px;
+  background-color: #0065ff;
+  color: white;
+}
+
+.drop-container {
+  margin: 0;
+  height: 210px;
+}
+
+.upload-icon {
+  width: 50px;
+  height: 50px;
+  background-size: 100%;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.drop-message {
+  position: relative;
+  top: 80px;
+  text-align: center;
+  font-size: 20px;
+}
+
+file-display-container {
+  position: fixed;
+  width: 805px;
+}
+
+.file-status-bar {
+  width: 100%;
+  vertical-align: top;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  position: relative;
+  line-height: 50px;
+  height: 50px;
+}
+
+.file-status-bar > div {
+  overflow: hidden;
+}
+
+.file-type {
+  display: inline-block !important;
+  position: absolute;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 13px;
+  margin-top: 25px;
+  padding: 0 4px;
+  border-radius: 2px;
+  box-shadow: 1px 1px 2px #abc;
+  background: #0080c8;
+  text-transform: uppercase;
+}
+
+.file-name {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 50px;
+}
+
+.file-error {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 50px;
+  color: #9aa9bb;
+}
+
+.file-error-message {
+  color: red;
+}
+
+.file-type-logo {
+  width: 50px;
+  height: 50px;
+  background-size: 100%;
+  position: absolute;
+}
+
+.file-size {
+  display: inline-block;
+  vertical-align: top;
+  color: #30693d;
+  margin-left: 10px;
+  margin-right: 5px;
+  margin-left: 10px;
+  color: #444242;
+  font-weight: 700;
+  font-size: 14px;
+}
+.file-inp {
+  padding-top: 10px;
+  background-color: white;
+  height: 40px;
+  cursor: pointer;
+}
+
+.file-remove {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  line-height: 15px;
+  cursor: pointer;
+  margin-right: -10px;
+}
+.file-inp-container {
+  position: relative;
+  top: 70px;
+}
+
+.file-area {
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border: 1px solid #363636;
+  border-radius: 3px;
+}
+
+.decrypt-container .MuiInputBase-root {
+  color: white;
+  background-color: #292929;
+}
+
+.decrypt-container .MuiInputBase-input {
+  color: white;
+  background-color: #292929;
+}
+
+.decrypt-container .MuiButton-root {
+  background-color: #ffa047;
+  color: white;
+  border-radius: 3px;
+  font-size: 15px;
+}
+.header .MuiButton-root {
+  font-family: Nunito;
+  margin-top: 13px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #ffa047;
+  color: white;
+  border-radius: 3px;
+  font-size: 15px;
+}
+
+.MuiButton-label {
+  font-family: Nunito;
+}
+
+.header .MuiTabs-root {
+  display: block;
+  height: 20px;
+}
+.header .MuiTabs-flexContainer {
+  display: block;
+}
+.header .MuiTab-root {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: 2px;
+  margin-right: 5px;
+  background-color: black;
+  min-width: 100px;
+}
+.header .MuiTabs-fixes {
+  width: none;
+}
+.PrivateTabIndicator-root-1 {
+  display: none;
+}
+.lang-tab {
+  margin-top: 5px;
+}
