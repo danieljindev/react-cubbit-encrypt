@@ -21,7 +21,7 @@ $ yarn build
 
 ## Deployments
 
-- [Live Website](https://flamboyant-meninsky-52d028.netlify.app)
+<!-- - [Live Website](https://flamboyant-meninsky-52d028.netlify.app) -->
 
 ## Tech stacks
 
